@@ -29,7 +29,7 @@ module.exports = {
       params.deploy.isPhonegap
     ];
 
-    callback(null, params["content"]+"var POSTBOOTSTRAP="+JSON.stringify(paramsdump)+";");
+    callback(null, params["content"]+"window.POSTBOOTSTRAP="+JSON.stringify(paramsdump)+";");
   },
   "xcodeproj":function(runtime, params, callback) {
     callback(null);
