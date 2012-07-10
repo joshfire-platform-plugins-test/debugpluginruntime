@@ -9,7 +9,13 @@
     "images":{
         
       },
-      "hooks":["startfile","bootstrap","xcodeproj"],
+      "hooks": [
+        "startfile",
+        "bootstrap",
+        "xcodeproj",
+        "list",
+        "item"
+      ],
       "options":{
         "schema":{
           "opt1withdefault":{
