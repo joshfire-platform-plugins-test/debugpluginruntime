@@ -7,27 +7,26 @@
    "description":"Dev only",
    "joshfire":{
     "images":{
-        
-      },
-      "hooks": [
-        "startfile",
-        "bootstrap",
-        "xcodeproj",
-        "list",
-        "item"
-      ],
-      "options":{
-        "schema":{
-          "opt1withdefault":{
-            "type":"string",
-            "title":"Opt1",
-            "default":"dft"
-          },
-          "opt2withoutdefault":{
-            "type":"string",
-            "title":"Opt1"
-          }
+    },
+    "hooks": [
+      "startfile",
+      "bootstrap",
+      "xcodeproj",
+      "list",
+      "item"
+    ],
+    "options":{
+      "schema":{
+        "opt1withdefault":{
+          "type":"string",
+          "title":"Opt1",
+          "default":"dft"
+        },
+        "opt2withoutdefault":{
+          "type":"string",
+          "title":"Opt1"
         }
       }
+    }
    }
 }

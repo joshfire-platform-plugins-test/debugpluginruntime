@@ -1,10 +1,10 @@
 /**
  * @fileoverview List hook definition
  */
-define([], function () {
+define(['./dep'], function (dep) {
   return {
-    generate: function (callback) {
-      return callback(null, '<p>Debug plugin: list hook</p>');
+    generate: function (options, callback) {
+      return callback(null, '<p>List hook of debug add-on</p>');
     }
   };
 });
