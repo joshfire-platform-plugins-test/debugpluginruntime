@@ -6,6 +6,7 @@
    ],
    "description":"Dev only",
    "joshfire":{
+    "debugmode": true,
     "images":{
     },
     "hooks": [
