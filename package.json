@@ -1,14 +1,13 @@
 {
-  "name":"debugpluginruntime",
-  "fullName":"Debug plugin runtime",
-  "version":"0.0.1",
+  "name": "debugpluginruntime",
+  "fullName": "Debug plugin runtime",
+  "version": "0.0.1",
   "keywords": [
-   ],
-   "description":"Dev only",
-   "joshfire":{
+  ],
+  "description": "Dev only",
+  "joshfire": {
     "debugmode": true,
-    "images":{
-    },
+    "images": {},
     "hooks": [
       "startfile",
       "bootstrap",
@@ -16,18 +15,18 @@
       "list",
       "item"
     ],
-    "options":{
-      "schema":{
-        "opt1withdefault":{
-          "type":"string",
-          "title":"Opt1",
-          "default":"dft"
+    "options": {
+      "schema": {
+        "opt1withdefault": {
+          "type": "string",
+          "title": "Opt1",
+          "default": "dft"
         },
-        "opt2withoutdefault":{
-          "type":"string",
-          "title":"Opt1"
+        "opt2withoutdefault": {
+          "type": "string",
+          "title": "Opt1"
         }
       }
     }
-   }
+  }
 }
